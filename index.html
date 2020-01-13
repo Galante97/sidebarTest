@@ -1,1 +1,106 @@
-<h1>Hello!</h1>
+<html>
+  <div className='Sidebar'>
+
+                  <img className='VLLogo' src={logo} alt="image"></img>
+
+
+                  <div className='flex-container1'>
+                      <div className='slogan'>
+                          Manage Leases.
+                      </div>
+                      <div className='slogan'>
+                          Produce Financial Entries.
+                      </div>
+                      <div className='slogan'>
+                          Stay Compliant.
+                      </div>
+                      <button className='insightBtn' type="button">Go to Insights & Ideas</button>
+                  </div>
+                  <div className='flex-container2'>
+                      <div className='video'>video</div>
+                      <div className='slogan2'>
+                          How should your organization comply with reporting standards?
+                      </div>
+                  </div>
+  </div>
+
+
+<style>
+  
+  .Sidebar {
+    background-color: #032E41;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+}
+
+.VLLogo {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 73px;
+    flex-shrink:0;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.slogan {
+    color: grey;
+    margin: auto;
+    width: 80%;
+    font-size: 18px;
+}
+
+
+
+.insightBtn {
+    background-color: #BFD5E3;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.video {
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    margin-top: auto;
+    background-color: dimgrey;
+}
+
+.slogan2 {
+    color: white;
+    width: 95%;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+  
+</style>
+
+</html>
